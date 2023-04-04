@@ -115,9 +115,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>算法社的ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            个人独享API联系WX：Zxhy787
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -157,7 +157,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
+              <a href={https://www.zxhy.club} target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
